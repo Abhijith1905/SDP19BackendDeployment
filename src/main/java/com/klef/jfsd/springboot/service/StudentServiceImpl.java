@@ -205,6 +205,7 @@ public class StudentServiceImpl implements StudentService
 	            // Update the title, description, and checkStatus fields
 	            project.setTitle(p.getTitle());
 	            project.setDescription(p.getDescription());
+	           
 	            project.setCheckStatus(p.isCheckStatus());
 
 	            // Convert String to ProjectPhase and update the phase field
